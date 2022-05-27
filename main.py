@@ -5,8 +5,7 @@
 
 
 def find_anagram(string1, string2):
-    print("NOTE: The program is not case sensitive\n")
-    print('The first word is: ', string1)
+    print('\nThe first word is: ', string1)
     print('The second word is: ', string2)
 
     # convert the strings to lower lcase
@@ -29,4 +28,6 @@ def find_anagram(string1, string2):
     else:
         print("\n" + string1 + " and " + string2 + " are not the same in length, and therefore are not anagrams.")
 
-find_anagram('low', 'owl')
+find_anagram('hello', 'check')
+find_anagram('below', 'elbow')
+find_anagram('low', 'wool')
