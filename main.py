@@ -17,13 +17,8 @@ def find_anagram(string1, string2):
         sorted_string1 = sorted(string1)
         sorted_string2 = sorted(string2)
     
-        # if sorted char arrays are same
-        if(sorted_string1 == sorted_string2):
-            print("\n")
-            print(True, ": " + string1 + " and " + string2 + " are anagrams")
-        else:
-            print("\n")
-            print(False, ": " + string1 + " and " + string2 + " are not anagrams")
+        # if sorted char arrays are same, return boolean
+        return print(sorted_string1 == sorted_string2)
     
     else:
         print("\n" + string1 + " and " + string2 + " are not the same in length, and therefore are not anagrams.")
